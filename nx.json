@@ -49,7 +49,16 @@
       "unitTestRunner": "jest"
     },
     "@nx/angular:component": {
-      "style": "scss"
+      "style": "scss",
+      "inlineStyle": true,
+      "inlineTemplate": true,
+      "standalone": true,
+      "skipTests": true,
+      "flat": true,
+      "changeDetection": "OnPush"
+    },
+    "@nx/angular:service": {
+      "skipTests": true
     }
   },
   "defaultProject": "pokemon-search"
