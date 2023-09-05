@@ -6,7 +6,7 @@
 ### Setup
 
 1. `npm install`
-1. `nx serve demo -o` (serves the Angular app)
+1. `nx serve -o` (serves the Angular app)
 
 ![Bildschirm­foto 2023-08-31 um 21 36 27](https://github.com/HaasStefan/pokemon-search/assets/29503005/da487229-c50c-4693-8429-6d11cf6ab2ce)
 
